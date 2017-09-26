@@ -1,7 +1,4 @@
-/* .owl-stage {
-width: 100% !important;
-
+.hoverActive {
+opacity: 1 !important;
+transition: 1s ease;
 }
-.owl-item {
-    width: 100% !important;
-} */
