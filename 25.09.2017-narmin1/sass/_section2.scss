@@ -1,0 +1,32 @@
+.section2 {
+     h2{
+        display: block;
+        font-size: 40px;
+        font-weight: 300;
+        margin: 0 0 15px;
+    }
+    .desktop-moc {
+        display: block;
+        width: 100%;
+    }
+    .tab-moc {
+        width: 160px !important;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .mob-moc {
+        width: 80px !important;
+        position: absolute;
+        left: 107px;
+        bottom: 0;
+    }
+     .seo-circle {
+        width: 120px !important;
+        position: absolute;
+        right: -50px;
+        top: 50px;
+    }
+}
+
+    
