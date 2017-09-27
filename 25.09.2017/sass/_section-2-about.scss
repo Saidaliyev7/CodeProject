@@ -1,0 +1,40 @@
+.section-2-about {
+    padding: 50px 0px;
+     .containerFlex {
+        border: 1px solid #25d25e;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 25px;
+        ul {
+background: transparent;
+        
+        li {
+            color: #a1a9bd;
+            display: inline-block;
+            padding: 0 10px;
+            margin: 33px 0;
+            position: relative;
+            &::before {
+                content: '|';
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            a {
+                color: black;
+            }
+
+        }
+        #thisLi {
+            &::before {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 0;
+            } 
+        }
+    } 
+    }
+}
