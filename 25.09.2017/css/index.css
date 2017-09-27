@@ -345,7 +345,8 @@
       transition: all 0.2s linear; }
 
 .section9 {
-  padding: 100px 0px; }
+  padding: 100px 0px;
+  background: #f7f7f7; }
   .section9 .head h2 {
     margin-bottom: 50px;
     position: relative; }
@@ -412,8 +413,78 @@
       z-index: -1; }
     .footer .footer-widgets .footer-widget {
       color: #bbbbbb; }
+      .footer .footer-widgets .footer-widget h5 {
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        line-height: 24px;
+        margin: 0 0 20px; }
+      .footer .footer-widgets .footer-widget input {
+        display: block;
+        padding: 15px 20px;
+        width: 100%; }
+      .footer .footer-widgets .footer-widget .ct-btn {
+        background-color: #25d25e;
+        display: inline-block;
+        padding: 15px 30px;
+        margin-left: 5px;
+        font-size: 19px;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 2px;
+        transition: all 0.2s linear; }
+        .footer .footer-widgets .footer-widget .ct-btn:hover {
+          background-color: #32ea6e;
+          color: #fff;
+          text-decoration: none;
+          transform: translateY(-3px);
+          transition: all 0.2s linear; }
+      .footer .footer-widgets .footer-widget h4 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        position: relative;
+        margin: 0 0 20px;
+        padding-bottom: 12px; }
+        .footer .footer-widgets .footer-widget h4::before {
+          background-color: #25d25e;
+          content: '';
+          width: 85px;
+          height: 2px;
+          position: absolute;
+          left: 0;
+          bottom: 0; }
       .footer .footer-widgets .footer-widget a {
         padding-bottom: 30px; }
+      .footer .footer-widgets .footer-widget ul {
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        .footer .footer-widgets .footer-widget ul li {
+          float: left;
+          width: 50%;
+          margin-bottom: 15px;
+          padding-left: 20px;
+          position: relative; }
+          .footer .footer-widgets .footer-widget ul li::before {
+            font-family: 'FontAwesome';
+            content: '\f105';
+            font-size: 20px;
+            color: #bbbbbb;
+            position: absolute;
+            left: 0;
+            top: 0; }
+          .footer .footer-widgets .footer-widget ul li a {
+            padding-bottom: 30px;
+            color: #bbbbbb;
+            font-weight: 700;
+            text-decoration: none;
+            transition: 1s ease; }
+            .footer .footer-widgets .footer-widget ul li a:hover {
+              color: white;
+              transition: 1s ease; }
 
 body {
   font-family: 'Raleway', sans-serif; }
