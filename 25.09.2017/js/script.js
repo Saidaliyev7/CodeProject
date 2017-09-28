@@ -51,3 +51,19 @@ $(document).ready(function () {
 
 });
 
+$(".section-3-about .image .hover").mouseover(function(){
+  $(this).addClass("hoverActive");
+})
+$(".section-3-about .image .hover").mouseout(function(){
+  $(this).removeClass("hoverActive");
+});
+
+
+
+$(".section10 .item").mouseover(function(){
+  console.log("nese");
+  $(this).addClass("hoverActive");
+})
+$(".section10 .item").mouseout(function(){
+  $(this).removeClass("hoverActive");
+});

@@ -38,3 +38,33 @@ background: transparent;
     } 
     }
 }
+
+.section-3-about {
+    padding: 100px 0px;
+.main {
+  h2 {
+      margin-bottom: 25px;
+  }
+  p {
+    margin-bottom: 50px;
+}
+
+    .image {
+        .hover {
+            width: 92%;
+            height: 100%;
+            position: absolute;
+            left: 15px;
+            top: 0;
+            z-index: 2;
+            opacity: 0;
+            background-color: rgba(37, 210, 94, 0.76);
+            transition: 1s ease;
+        }
+    }
+    img {
+        width: 100%;
+    }
+}
+
+}
