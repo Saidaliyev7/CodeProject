@@ -516,6 +516,80 @@
         right: 0;
         top: 0; }
 
+.section-3-about {
+  padding: 100px 0px; }
+  .section-3-about .main h2 {
+    margin-bottom: 25px; }
+  .section-3-about .main p {
+    margin-bottom: 50px; }
+  .section-3-about .main .image .hover {
+    width: 92%;
+    height: 100%;
+    position: absolute;
+    left: 15px;
+    top: 0;
+    z-index: 2;
+    opacity: 0;
+    background-color: rgba(37, 210, 94, 0.76);
+    transition: 1s ease; }
+  .section-3-about .main img {
+    width: 100%; }
+
+.section-3-services {
+  padding: 100px 0px;
+  background-color: #f7f7f7;
+  border: 1px solid #eaeaea; }
+  .section-3-services .metn h2 {
+    margin-bottom: 35px; }
+  .section-3-services .metn p {
+    font-size: 13px;
+    font-weight: 100; }
+
+.section-4-services {
+  padding: 75px 0px;
+  background-color: #39ce69; }
+  .section-4-services .metn h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    text-align: center; }
+  .section-4-services .metn a {
+    text-align: center; }
+  .section-4-services .metn .ct-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: all 0.2s linear;
+    background: transparent;
+    border: 1.5px solid #fff; }
+    .section-4-services .metn .ct-btn:hover {
+      background-color: white;
+      color: black;
+      transform: translateY(-3px);
+      transition: all 0.2s linear; }
+
+.counter {
+  background-image: url(../img/counter-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .counter .main {
+    padding: 100px 0px; }
+    .counter .main h2 {
+      text-align: center;
+      color: #25d25e;
+      font-weight: bold; }
+    .counter .main p {
+      text-align: center;
+      color: white;
+      font-weight: bold; }
+
 body {
   font-family: 'Raleway', sans-serif; }
 

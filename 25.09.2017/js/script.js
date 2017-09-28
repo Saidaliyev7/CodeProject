@@ -48,9 +48,17 @@ $(document).ready(function () {
         nav: true,
         navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
     });
-
+$('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 3000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
 });
-
 $(".section-3-about .image .hover").mouseover(function(){
   $(this).addClass("hoverActive");
 })
@@ -67,3 +75,5 @@ $(".section10 .item").mouseover(function(){
 $(".section10 .item").mouseout(function(){
   $(this).removeClass("hoverActive");
 });
+});
+

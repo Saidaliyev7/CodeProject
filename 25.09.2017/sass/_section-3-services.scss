@@ -9,7 +9,6 @@
         p {
             font-size: 13px;
             font-weight: 100;
-            
         }
     }
 }
@@ -19,17 +18,17 @@
     background-color: #39ce69;
     .metn {
         h2 {
-            font-size: 40px;
+            font-size: 30px;
             font-weight: bold;
             color: white;
             display: inline-block;
-            margin-left: 100px;
-
+            text-align: center;
         }
         a {
-            margin-left: 20px;
+            text-align: center;
         }
         .ct-btn {
+            
             display: inline-block;
             padding: 10px 30px;
             font-size: 13px;
@@ -39,13 +38,34 @@
             text-transform: uppercase;
             border-radius: 2px;
             transition: all 0.2s linear;
-          background: transparent;
-          border: 1.5px solid #fff;
-          &:hover {
-            background-color: #32ea6e;
-            transform: translateY(-3px);
-            transition: all 0.2s linear;
+            background: transparent;
+            border: 1.5px solid #fff;
+            &:hover {
+                background-color: white;
+                color: black;
+                transform: translateY(-3px);
+                transition: all 0.2s linear;
+            }
         }
+    }
+}
+
+.counter {
+    background-image: url(../img/counter-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    .main {
+        padding: 100px 0px;
+        h2 {
+            text-align: center;
+            color: #25d25e;
+            font-weight: bold;
+        }
+        p {
+            text-align: center;
+            color: white;
+            font-weight: bold;
         }
     }
 }
