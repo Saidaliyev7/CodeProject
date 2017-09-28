@@ -68,11 +68,11 @@ $(".section-3-about .image .hover").mouseout(function(){
 
 
 
-$(".section10 .item").mouseover(function(){
+$(".section4 .hover").mouseover(function(){
   console.log("nese");
   $(this).addClass("hoverActive");
 })
-$(".section10 .item").mouseout(function(){
+$(".section4 .hover").mouseout(function(){
   $(this).removeClass("hoverActive");
 });
 });
