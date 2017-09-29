@@ -62,6 +62,9 @@ $('.count').each(function () {
 });
 $(".section-3-about .esas").hover(function(){
   $(this).find(".hover").toggleClass("hoverActive");
+     $(this).find("h4").toggleClass("h4Active");
+    $(this).find("p").toggleClass("h4Active");
+    $(this).find("a").toggleClass("h4Active");
 })
 
 
@@ -69,8 +72,17 @@ $(".section-3-about .esas").hover(function(){
 
 $(".section4 .esas").hover(function(){
   $(this).find(".hover").toggleClass("hoverActive");
+  $(this).find("h4").toggleClass("h4Active");
+    $(this).find("p").toggleClass("h4Active");
 })
+$(".narmin-accardion .panel-group a").click(function(){
+    if($(this).hasClass("accardionActive")==false) {
+$(this).addClass("accardionActive");
+    } else {
+$(this).find("accardionActive").css("border-color","#ddd");
+    }
 
+});
 
 
 });

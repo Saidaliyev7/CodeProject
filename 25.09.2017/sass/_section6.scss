@@ -33,29 +33,38 @@
             background-color: #25d25e;
             transition: 0.3s ease;
             .content-inner {
-            h4 {
-                color: #fff;
-                font-weight: 700;
-                margin: 15px 0 10px;
-                opacity: 0;
-                position: relative;
-                &::before {
-                    background-color: white;
-                    height: 2px;
-                    width: 70px;
-                    content: '';
-                    position: absolute;
-                    left: calc(27% - 35px);
-                    bottom: -10px;
-                    transition: all 0.2s linear;
+                h4 {
+                    color: #fff;
+                    font-weight: 700;
+                    margin: 15px 0 10px;
+                    opacity: 0;
+                    padding-top: 75px;
+                    color: white;
+                    font-weight: bold;
+                    position: relative;
+                    &::before {
+                        background-color: white;
+                        height: 2px;
+                        width: 70px;
+                        content: '';
+                        position: absolute;
+                        left: calc(50% - 35px);
+                        bottom: -10px;
+                        transition: all 0.2s linear;
+                    }
                 }
-            }
-            a {
-                opacity: 0;
-            }
-            p {
-                opacity: 0;
-            }
+                a {
+                    opacity: 0;
+                    color: white;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                p {
+                    padding: 10px 20px 0px 20px;
+                    color: white;
+                    font-weight: 200;
+                    opacity: 0;
+                }
             }
         }
     }
