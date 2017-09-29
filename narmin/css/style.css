@@ -150,3 +150,39 @@ h4 {
     width: 100%;
     height: 380px;
 }
+.ct-btn{
+    border: none;
+    background-color: #25d25e;
+    display: inline-block;
+    padding: 15px 30px;
+
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+border-radius: 2px;
+    transition: all 0.2s linear;
+}
+.col-4 .row ul li{
+    font-size: 13px;
+    color: #777;
+    display: block;
+    padding-left: 75px;
+    margin-bottom: 20px;
+    position: relative;
+ 
+  
+}
+.col-4 .row ul li i {
+    background-color: #25d25e;
+    color: #fff;
+    display: block;
+    text-align: center;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
