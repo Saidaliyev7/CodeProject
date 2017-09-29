@@ -31,13 +31,13 @@
             height: 100%;
             top: 0%;
             background-color: #25d25e;
-            opacity: 0;
-            transition: 1s ease;
+            transition: 0.3s ease;
             .content-inner {
             h4 {
                 color: #fff;
                 font-weight: 700;
                 margin: 15px 0 10px;
+                opacity: 0;
                 position: relative;
                 &::before {
                     background-color: white;
@@ -49,6 +49,12 @@
                     bottom: -10px;
                     transition: all 0.2s linear;
                 }
+            }
+            a {
+                opacity: 0;
+            }
+            p {
+                opacity: 0;
             }
             }
         }

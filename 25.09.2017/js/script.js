@@ -24,12 +24,13 @@ $(document).ready(function () {
     }
   })
 
-  $("#secondCarousel .case-content .hover").mouseover(function(){
-    $(this).addClass("hoverActive");
-  })
-  $("#secondCarousel .case-content .hover").mouseout(function(){
-    $(this).removeClass("hoverActive");
+  $("#secondCarousel .case-content").hover(function(){
+    $(this).find(".hover").toggleClass("hoverActive");
+    $(this).find("h4").toggleClass("h4Active");
+    $(this).find("p").toggleClass("h4Active");
+    $(this).find("a").toggleClass("h4Active");
   });
+  
   $('#thirdCarousel').owlCarousel({
     items: 5,
     dots:false,
@@ -59,21 +60,18 @@ $('.count').each(function () {
         }
     });
 });
-$(".section-3-about .image .hover").mouseover(function(){
-  $(this).addClass("hoverActive");
+$(".section-3-about .esas").hover(function(){
+  $(this).find(".hover").toggleClass("hoverActive");
 })
-$(".section-3-about .image .hover").mouseout(function(){
-  $(this).removeClass("hoverActive");
-});
 
 
 
-$(".section4 .hover").mouseover(function(){
-  console.log("nese");
-  $(this).addClass("hoverActive");
+
+$(".section4 .esas").hover(function(){
+  $(this).find(".hover").toggleClass("hoverActive");
 })
-$(".section4 .hover").mouseout(function(){
-  $(this).removeClass("hoverActive");
-});
+
+
+
 });
 

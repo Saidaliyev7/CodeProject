@@ -1,7 +1,13 @@
+
 .hoverActive {
-opacity: 1 !important;
-transition: 1s ease;
+width: 0% !important;
+transition: 0.3s ease;
 }
+
+.h4Active{
+    opacity: 1 !important ;
+}
+
 
 #thirdCarousel {
     border: none;
